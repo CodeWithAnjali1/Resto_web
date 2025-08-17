@@ -135,10 +135,13 @@ body {
   border-radius: 50px;
   border: 1px solid brown;
   margin-left: 10px;
+  text-decoration: none;
+  color: white;
 }
 
 .tele a:hover {
   background-color: navy;
+  color: white;
 }
 
 /* 🔹 Responsive Media Queries */
@@ -365,7 +368,7 @@ body {
 }
 
 
-        /* Chef Section */
+ /* Chef Section */
 .chef {
   padding: 25px 0;
   color: black;
