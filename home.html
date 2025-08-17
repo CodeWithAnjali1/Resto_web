@@ -16,12 +16,23 @@
             <h2><i>Best Quality, Fresh and Tasty Food point</i></h2>
         </div>
         <div class="menu_btn">    
-            <a href="">Menu</a>
+            <a href="javascript:void(0)" onclick="openMenu()">Menu</a>
         </div>
+
+        <script>
+            function openMenu() {
+            document.getElementById("MENU").scrollIntoView({ 
+            behavior: "smooth"  
+            });
+        }
+        </script>
+
+
      
         <div class="header">
                <nav class="navbar">
             <h1>Top Nosh</h1>
+            
              <ul>
                 <li><a href="#HOME">Home</a></li>
                 <li><a href="#MENU">Menu</a></li>
@@ -29,7 +40,7 @@
                 <li><a href="#FOOTER">About</a></li>
                 <li><a href="#FOOTER">Contact</a></li>
             </ul>    
-
+            
                 <div class="tele">
                     <a href="tel: ">+912468101246</a>
                 </div>  
@@ -96,7 +107,7 @@
                         <img src="/images/lunch2.jpg">
                     </div>
                     <div class="text">
-                        <h3>Stake</h3>
+                        <h3>Steak</h3>
                         <h4>100$</h4>
                     </div>
                 </div>
